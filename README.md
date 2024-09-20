@@ -1,3 +1,3 @@
 # My Dotfiles
 
-symlinked with stow
+symlinked with GNU stow
