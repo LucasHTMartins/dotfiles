@@ -117,3 +117,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Remapping Esc to CapsLk for VIM
+xmodmap ~/.Xmodmap 
