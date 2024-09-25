@@ -3,3 +3,7 @@
 	name = Lucas H. T. Martins
 [init]
 	defaultBranch = main
+[core]
+	editor = vim
+[commit]
+	template = /home/lucas/.gitmessage.txt
