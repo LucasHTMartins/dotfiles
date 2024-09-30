@@ -1,7 +1,5 @@
 " Comments in Vimscript start with a `"`.
 
-" If you open this file in Vim, it'll be syntax highlighted for you.
-
 " Vim is based on Vi. Setting `nocompatible` switches from the default
 " Vi-compatibility mode and enables useful Vim functionality. This
 " configuration option turns out not to be necessary for the file named
@@ -78,3 +76,10 @@ inoremap <Left>  <ESC>:echoe "Use h"<CR>
 inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
+
+" Tab behaviour settings
+set autoindent
+set expandtab
+set softtabstop=4
+set shiftwidth=4
+

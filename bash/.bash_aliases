@@ -2,6 +2,8 @@
 alias please="sudo"
 alias back="cd .."
 
+alias snek="python3"
+
 # useful
 alias ll='ls -alF'
 alias la='ls -A'
